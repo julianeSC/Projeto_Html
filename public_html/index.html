@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Grimm</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/school.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <meta name="description" content="serie de tv">
+        <meta name="keywords" content="grimm,serie">
+        <link rel="stylesheet" type="text/css" href="css/awesome.css"/>
+
+    </head>
+    <body>
+        <div class="w3-top">
+            <div class="w3-bar" id="navbar">
+                <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-opennav w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+                <a href="#home" class="w3-bar-item w3-button">Home</a> 
+                <a href="#serie" class="w3-bar-item w3-button w3-hide-small ">Série</a>
+                <a href="#galeria" class="w3-bar-item w3-button w3-hide-small">Galeria</a>
+                <a href="#formulario" class="w3-bar-item w3-button w3-hide-small">Formulário</a>
+                <a href="#elenco" class="w3-bar-item w3-button w3-hide-small">Elenco</a>
+                <a href="#wesen" class="w3-bar-item w3-button w3-hide-small">Wesen</a>  
+                
+            </div>
+            <div id="navDemonstracao" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+                <a href="#serie" class="w3-bar-item w3-button" onclick="toggleFunction()">Série</a>
+                <a href="#galeria" class="w3-bar-item w3-button" onclick="toggleFunction()">Galeria</a>
+                <a href="formulario" class="w3-bar-item w3-button" onclick="toggleFunction()">Formulário</a>
+                <a href="#elenco" class="w3-bar-item w3-button" onclick="toggleFunction()">Elenco</a>
+                <a href="#wesen" class="w3-bar-item w3-button" onclick="toggleFunction()">Wesen</a>
+                
+            </div>
+        </div>
+        <div class="bgimg-1 w3-display-container" id="home"></div>
+        <div class="w3-content w3-container w3-padding-64" id="serie">
+            <h3 class="w3-center">Sobre a Série</h3>
+            <p>Grimm conta a história de Nick Burkhardt, um detetive de homicídios que tem sua vida transformada ao
+                descobrir que é descendente de uma sociedade secreta, conhecida como Grimm. Sua missão, assim como a
+                de seus antepassados, é manter o equilíbrio entre a vida real e a mitologia. Essa ligação com o mundo 
+                das fábulas ofereceu grandes perigos ao detetive e seus entes mais próximos, em especial a Hexenbiest 
+                Juliette Silverton, que acabou sendo morta à flechadas pela Grimm Trubel após ameaçar a vida de Nick. 
+                E nessa vida de perigos, quanto mais Burkhardt tenta se afastar, mais se aproxima de suas raízes e inimigos do passado.</p>
+            <p>Com a ajuda de Monroe e Rosalee, um Blutbad e uma Fuchsbau, ambas
+                criaturas renovadas e seus confidentes, e do Kehrseite-Schlich-Kennen
+                (humano que sabe a verdade sobre os wesen) Hank Griffin, ele terá de lutar
+                contra estranhas criaturas conhecidas como Wesen, que o perseguem e fazem mal
+                às pessoas do mundo real. Com o passar do tempo, acontecimentos envolvendo sua
+                mãe, uma Grimm que Nick pensava estar morta há mais de 20 anos, o deixa abalado
+                e faz questionar-se o que realmente sabe sobre si mesmo e o mundo das criaturas.
+                O Kehrseite-Schlich-Kennen Sargento Wu, o half-wesen Capitão Renard e a ex-Hexenbiest
+                Adalind Schade também estrelam a série.</p>
+
+        </div>
+        <div class="w3-row w3-center w3-dark-grey "></div>
+
+        <div class="bgimg-2 w3-display-container">
+            <div class="w3-display-middle">
+                <span class="w3-xxlarge w3-text-cyan w3-wide">Galeria</span>
+            </div>
+        </div>
+        <div class="w3-content w3-container w3-padding-64" id="galeria">
+            <h3 class="w3-center">Grimm</h3>
+            <p class="w3-center"><em>Imagens de epsódios.<br> Click sobre as imagens para aumenta - lás</em></p><br>
+
+            <div class="w3-row-padding w3-center">
+                <div class="w3-col m3">
+                    <img src="images/mapa.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-white" alt="Chaves que forma uma mapa">
+                </div>
+                <div class="w3-col m3">
+                    <img src="images/grimm05.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-white" alt="Temporada 05">
+                </div>
+                <div class="w3-col m3">
+                    <img src="images/casal.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-white" alt="Casal  Monroe e Rosalee">
+                </div>
+                <div class="w3-col m3">
+                    <img src="images/livro.png" style="width:90%" onclick="onClick(this)" class="w3-hover-white" alt="Livro que contém todos os segredos wesen">
+                </div>
+            </div> 
+            <div class="w3-row-padding w3-center w3-section">
+                <div class="w3-col m3">
+                    <img src="images/juliete.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-white" alt="Juliete">
+                </div>
+                <div class="w3-col m3">
+                    <img src="images/nick.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-white" alt="Nick é um grimm ">
+                </div>
+                <div class="w3-col m3">
+                    <img src="images/grupo.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-white" alt="Principais personagens">
+                </div>
+                <div class="w3-col m3">
+                    <img src="images/diana.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-white" alt="Diana é a mais poderosa entre eles">
+                </div>  
+            </div>
+        </div>
+        <br>
+        <div id="modal01" class="w3-modal w3-black" onclick="this.style.display = 'none'">
+            <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity w3-xxlarge w3-container w3-display-topright" title="Fechar a Imagem"><img src="images/close.png" ></span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption" class="w3-opacity w3-large"></p>
+            </div>
+
+        </div>
+        <div class="bgimg-3 w3-display-container ">
+            <div class="w3-display-middle">
+                <span class="w3-xxlarge w3-text-cyan w3-wide">Formulário</span>
+            </div>
+        </div>
+        <div class="w3-content w3-center w3-container w3-padding-64" id="formulario">
+            <h4>Deixe seu comentário sobre a série</h4>
+            <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                <div class="w3-row">
+                    <label for="name">Nome:</label><br />
+                    <input id="name" class="input" name="name" type="text" value="" size="30" required=""/><br />
+                </div>
+                <div class="w3-row">
+                    <label for="email">E-mail:</label><br />
+                    <input id="email" class="input" name="email" type="text" value="" size="30" required=""/><br />
+                </div>
+                <div class="w3-row">
+                    <label for="message">Mensagem:</label><br />
+                    <textarea id="message" class="input" name="message" rows="7" cols="30" required=""></textarea>
+                </div><br/>
+                <input id="submit_button" type="submit" value="enviar" />
+            </form>
+        </div>
+
+        <div class="bgimg-4 w3-display-container ">
+            <div class="w3-display-middle">
+                <span class="w3-xxlarge w3-text-cyan w3-wide">Elenco</span>
+            </div>
+        </div>
+        <div class="w3-content w3-container w3-padding-64" id="elenco">
+            <h3 class="w3-center">Atores Principais</h3>
+            <br>
+            <div class="w3-row-padding w3-center">
+                <div class="w3-col m3">
+                    <img src="images/hankelenco.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-white" alt="hank" >
+                    <p>Russell Hornsby<br>Hank Griffin</p>
+                </div>
+                <div class="w3-col m3">
+                    <img src="images/julieteelenco.jpg" style="width:80%" onclick="onClick(this)" class="w3-hover-white" alt="Juliete">
+                    <p>Bitsie Tulloch<br>Juliete Silverton</p>
+                </div>
+                <div class="w3-col m3">
+                    <img src="images/moroeelenco.jpg" style="width:70%" onclick="onClick(this)" class="w3-hover-white" alt="Monroe">
+                    <p>Silas Weir Mitchell<br>Monroe</p>
+                </div>
+                <div class="w3-col m3">
+                    <img src="images/adalind.jpg" style="width:60%" onclick="onClick(this)" class="w3-hover-white" alt="Adalind">
+                    <p>Claire Coffee<br>Adalind schade</p>
+                </div>
+            </div> 
+            <div class="w3-row-padding w3-center w3-section">
+                <div class="w3-col m3">
+                    <img src="images/capitaoelenco.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-white" alt="Capitao">
+                    <p>Sasha Roiz<br>Capitão Sean Renard</p>
+                </div>
+                <div class="w3-col m3">
+                    <img src="images/nickelenco.jpg" style="width:80%" onclick="onClick(this)" class="w3-hover-white" alt="Nick ">
+                    <p>David Giuntoli<br> Nick Burkhardt</p>
+                </div>
+                <div class="w3-col m3">
+                    <img src="images/wuelenco.jpg" style="width:70%" onclick="onClick(this)" class="w3-hover-white" alt="wu">
+                    <p>Reggie Lee<br>Drew Wu</p>
+                </div>
+                <div class="w3-col m3">
+                    <img src="images/rosalee.jpg" style="width:60%" onclick="onClick(this)" class="w3-hover-white" alt="Rosalee">
+                    <p>Bree Turner<br>Rosalee Calvart</p>
+                </div>
+            </div>
+        </div>
+        <div class="bgimg-5 w3-display-container ">
+            <div class="w3-display-middle">
+                <span class="w3-xxlarge w3-text-cyan w3-wide">Wesen</span>
+            </div>
+        </div>
+        <div class="w3-content w3-container w3-padding-64" id="wesen">
+            <h3 class="w3-center">Sobre os wesen</h3>
+            <p>Wesen é um termo coletivo usado para descrever as criaturas vistas pelos Grimms.
+                Eles têm como base não só os contos dos irmãos Grimm, mas também as lendas e folclores de diversas culturas.
+                Quando um wesen se transforma (woge), eles são capazes de reconhecer um Grimm apenas olhando em seus olhos.
+                As criaturas podem ver uma “escuridão infinita” nos olhos dos Grimms, onde eles se veem refletidos em sua 
+                verdadeira natureza wesen. Muitas criaturas ficam perturbadas ao se verem refletidas; Monroe e Rosalee disseram
+                que levaram algum tempo para se acostumarem com isso.</p>
+            <div class="w3-row">
+                <div class="w3-col m6 w3-center w3-padding-large">
+                    <img src="images/coelho.jpg" class="w3-round w3-image" alt="coelho" width="500" height="333">
+                </div>
+                <div class="w3-col m6 w3-hide-small w3-padding-large">
+                    <h4>Nomes de alguns wesen</h4>
+                    <p><b>Zauberbiest (Zauber = Mágica ou mago, Biest = Besta):</b> Sean Reynard,
+                        o comandante de Nick na polícia, é o primeiro wesen mestiço que apareceu 
+                        no seriado. Fruto do relacionamento de uma hexenbiest com um humano. 
+                        O termo Zauberbiest é usado para os machos da raça enquanto hexenbiest é reservado só as fêmeas.<br>
+                        <b>Drang Zorn (fúria estressada):</b> criatura texugo que quando atingem a 
+                        puberdade são afligidos por ataques de fúria.<br>
+                        <b>Taureus Armenta:</b> wesen touro que é famoso por ter um grande espírito de lealdade, 
+                        geralmente presente nas linhas de frente dos campos de batalha.<br>
+                        <b>Raub-Konder (condor consumista):</b> Wesen condor que é um dos maiores caçadores da comunidade Wesen.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer class="w3-center w3-black w3-padding-24 w3-opacity w3-hover-border-dark-grey">
+            <p>Copyright @ 2017 <br>Todos os direitos reservados</p>
+        </footer>
+        <script>
+            function onClick(element) {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+                var captionText = document.getElementById("caption");
+                captionText.innerHTML = element.alt;
+            }
+            window.onscroll = function () {
+                myFunction()
+            };
+            function myFunction() {
+                var navbar = document.getElementById("navbar");
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-cyan";
+                } else {
+                    navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-cyan", "");
+                }
+            }
+            function toggleFunction() {
+                var x = document.getElementById("navDemo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+    </body>
+</html>
